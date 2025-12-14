@@ -42,3 +42,23 @@ pip install -r requirements.txt
 ### Test sets
 
 * [Bullying10K](https://www.brain-cog.network/dataset/Bullying10k/)
+
+
+# Training
+
+* Please set the train dataset path using `--data_root` in the command, then run `train.py` with Python.
+
+```bash
+python train.py --data_root ./dataset --gpu 0 --epochs 150 --batch_size 64 --aux_loss_weight 0.2
+```
+
+* In the [network](network) folder we have provided the core model python file, namely "TAM_model.py", which includes the `MS_STANet_Pose` architecture used in our experiments.
+
+
+# Evaluation
+
+* Please set the test dataset path (same as data_root) and run `train.py` with Python, adding the `--test_only` flag.
+
+```bash
+python train.py --test_only --checkpoint_path ./runs_output/best_model.pth --data_root ./dataset
+```
