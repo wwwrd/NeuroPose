@@ -8,7 +8,7 @@ Paper code: Neuromorphic bullying detection network based on multi-scale spatio-
 
 * Ubuntu 18.04 / 20.04
 * Python 3.8+
-* PyTorch 1.10.0+ (Tested on 1.12.1 + CUDA 11.3)
+* PyTorch 1.10.0+ (Tested on 2.0.0 + CUDA 11.8)
 * Dependencies can be installed via:
 
 ```bash
