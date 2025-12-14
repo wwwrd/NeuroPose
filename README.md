@@ -1,7 +1,7 @@
 # Neuro-Pose
 Paper code: Neuromorphic bullying detection network based on multi-scale spatio-temporal attention and asymmetric gated fusion
 
-
+![Neuro-Pose Architecture](img/model.png)
 
 
 ## Environment
