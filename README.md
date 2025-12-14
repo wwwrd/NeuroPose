@@ -4,7 +4,7 @@ Paper code: Neuromorphic bullying detection network based on multi-scale spatio-
 ![Neuro-Pose Architecture](img/model.png)
 
 
-## Environment
+# Environment
 
 * Ubuntu 18.04 / 20.04
 * Python 3.8+
